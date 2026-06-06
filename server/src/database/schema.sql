@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS "Lead" (
+  "id" TEXT PRIMARY KEY,
+  "name" TEXT NOT NULL,
+  "email" TEXT NOT NULL,
+  "company" TEXT,
+  "phone" TEXT,
+  "source" TEXT NOT NULL,
+  "siteVisits" INTEGER NOT NULL DEFAULT 1,
+  "visitedDirectly" BOOLEAN NOT NULL DEFAULT false,
+  "score" INTEGER NOT NULL,
+  "status" TEXT NOT NULL DEFAULT 'new',
+  "notes" TEXT,
+  "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
