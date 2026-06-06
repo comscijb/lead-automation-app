@@ -1,6 +1,6 @@
 # Lead Scoring App
 
-A portfolio-ready full-stack application for capturing sales leads, scoring their priority, and tracking pipeline status. The project is built with a React/Vite client, Chakra UI, an Express API, Prisma, and PostgreSQL.
+Full-stack application for capturing sales leads, scoring their priority, and tracking pipeline status. The project is built with a React/Vite client, Chakra UI, an Express API, Prisma, and PostgreSQL.
 
 ## Overview
 
